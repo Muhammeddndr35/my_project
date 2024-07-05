@@ -51,7 +51,6 @@ public class test_case1 {
         viewcart.click();
         WebElement menstrualcontrol= driver.findElement(By.xpath("//button[text()='5']"));
         Assert.assertTrue(menstrualcontrol.isDisplayed());
-        //Assert.assertEquals("Order number is not 4", "4", ordernumber.getText());
         driver.close();
 
         //WebElement clickbutton = driver.findElement(By.xpath("//button[text()='Continue Shopping']"));
