@@ -53,8 +53,7 @@ public class test_case1 {
         Assert.assertTrue(menstrualcontrol.isDisplayed());
         driver.close();
 
-        //WebElement clickbutton = driver.findElement(By.xpath("//button[text()='Continue Shopping']"));
-        //clickbutton.click();
+        
 
 
 
